@@ -1,5 +1,11 @@
+import TileGrid from './components/TileGrid';
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <TileGrid />
+    </div>
+  );
 }
 
 export default App;
