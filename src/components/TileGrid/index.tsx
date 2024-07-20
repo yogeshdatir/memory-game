@@ -15,6 +15,7 @@ const TileGrid = ({ gridSize = 4 }: { gridSize?: 4 | 6 }) => {
     gridSize === 4
       ? { fontSize: '56px', maxWidth: '532px', gap: '20px' }
       : { fontSize: '44px', maxWidth: '572px', gap: '16px' };
+
   const TileStyle =
     gridSize === 4
       ? { width: '118px', height: '118px' }
