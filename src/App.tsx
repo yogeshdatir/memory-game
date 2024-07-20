@@ -3,7 +3,7 @@ import TileGrid from './components/TileGrid';
 function App() {
   return (
     <div>
-      <TileGrid />
+      <TileGrid gridSize={6} />
     </div>
   );
 }

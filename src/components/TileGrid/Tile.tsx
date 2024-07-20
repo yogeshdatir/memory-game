@@ -1,9 +1,15 @@
-import { CSSProperties } from 'react';
+import { CSSProperties, ReactNode } from 'react';
 
-const Tile = ({ style }: { style?: CSSProperties | undefined }) => {
+const Tile = ({
+  style,
+  children,
+}: {
+  style?: CSSProperties | undefined;
+  children: ReactNode;
+}) => {
   return (
     <span style={style} className="tile">
-      24
+      {children}
     </span>
   );
 };

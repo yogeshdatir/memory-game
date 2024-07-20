@@ -14,7 +14,6 @@ export const TileGridContainer = styled.div`
     background: #bcced9;
     color: #fcfcfc;
     font-family: 'Atkinson Hyperlegible';
-    font-size: 44px;
     font-weight: bold;
   }
 `;
